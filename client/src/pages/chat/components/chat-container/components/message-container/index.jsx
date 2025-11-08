@@ -132,7 +132,7 @@ const checkIfImage = (filePath)=>{
     </div>
   )
   return (
-    <div className='flex-1 overflow-y-auto scrollbar-hidden p-4 md:px-8 sm:px-6 px-4 md:w-[65vw] lg:w-[70vw] xl:w-[80vw] w-full'>{renderMessage()}
+    <div className='h-[90vh] overflow-y-auto scrollbar-hidden p-4 md:px-8 sm:px-6 px-4 md:w-[65vw] lg:w-[70vw] xl:w-[80vw] w-full'>{renderMessage()}
       <div ref={scrollRef} />
       {
         showImg && <div className="fixed z-[1000] top-0 left-0 h-[100vh] w-[100vw] flex items-center justify-center backdrop-blur-lg flex-col">

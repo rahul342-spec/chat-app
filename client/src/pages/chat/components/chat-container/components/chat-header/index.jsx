@@ -7,7 +7,7 @@ import { getColor } from "@/utils/utils";
 const ChatHeader = () => {
     const {closeChat,selectedChatData,selectedChatType} = userAppStore();
     return (
-        <div className='md:h-[10vh] sm:h-[8vh] h-[7vh] border-b-2 border-[#2f303b] flex items-center justify-between md:px-20 sm:px-10 px-3 '>
+        <div className='md:h-[10vh] sm:h-[8vh] h-[6vh] border-b-2 border-[#2f303b] flex items-center justify-between md:px-20 sm:px-10 px-3 '>
             <div className='flex md:gap-5 sm:gap-3 items-center justify-between  w-full'>
                 <div className='flex gap-3 items-center justify-center '>
                       <div className="w-12 h-12 flex justify-center items-center">
